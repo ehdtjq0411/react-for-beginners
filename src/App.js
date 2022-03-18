@@ -1,6 +1,8 @@
 import Button from "./Button";
 import styles from "./App.module.css";
 import {useState, useEffect} from "react";
+import CleanUp from "./CleanUp";
+
 
 function App() {
   const [counter, setValue] = useState(0);
@@ -45,6 +47,8 @@ function App() {
       </input>
       <h1>{counter}</h1>
       <button onClick={onClick}>click me</button>
+
+      <CleanUp/>
     </div>
   );
 }
