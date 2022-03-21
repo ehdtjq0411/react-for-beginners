@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 
 function TodoList(){
     const [toDo, setToDo] = useState("");
@@ -30,6 +30,12 @@ function TodoList(){
                     placeholder="Write your to do ..."/>
                 <button onClick={onSubmit}>Add To Do</button>
             </form>
+            <hr />
+            <ul>
+                {toDos.map((item, index) => {
+                    return (<li key={index}>{item}</li>);
+                })}
+            </ul>
         </div>
     );
 }

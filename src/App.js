@@ -51,6 +51,8 @@ function App() {
       <CleanUp/>
     </div>
   );
+
+  
 }
 
 export default App;
