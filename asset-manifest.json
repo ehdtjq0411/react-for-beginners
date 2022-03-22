@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/ehdtjq0411/react-movie-for-beginners/static/js/main.76062e3d.js",
-    "index.html": "/ehdtjq0411/react-movie-for-beginners/index.html",
-    "main.76062e3d.js.map": "/ehdtjq0411/react-movie-for-beginners/static/js/main.76062e3d.js.map"
+    "main.js": "/react-movie-for-beginners/static/js/main.76062e3d.js",
+    "index.html": "/react-movie-for-beginners/index.html",
+    "main.76062e3d.js.map": "/react-movie-for-beginners/static/js/main.76062e3d.js.map"
   },
   "entrypoints": [
     "static/js/main.76062e3d.js"
